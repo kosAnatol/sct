@@ -11,11 +11,6 @@
 |
 */
 
-Route::get('/testRout', function () {
-    return 'test work';
-});
-
-
 Route::get('/', function () {
     return 'Hello World!';
 });

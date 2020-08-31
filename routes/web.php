@@ -11,8 +11,17 @@
 |
 */
 
-Route::get('/', function () {
+Route::get('/testRout', function () {
     return 'test work';
+});
+
+
+Route::get('/', function () {
+    return 'Hello World!';
+});
+
+Route::get('/test', function () {
+    return 'test';
 });
 
 Auth::routes();
